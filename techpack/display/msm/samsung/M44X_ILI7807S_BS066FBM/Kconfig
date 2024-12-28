@@ -1,0 +1,14 @@
+config  PANEL_M44X_ILI7807S_BS066FBM_FHD
+	depends on DISPLAY_SAMSUNG
+	bool "BOE ILI7807S TDDI"
+	default n
+	---help---
+	BOE ILI7807S TDDI 1080_2408 M44X
+
+config  PANEL_BUILTIN_BACKLIGHT
+	depends on DISPLAY_SAMSUNG
+	bool "external backlight IC"
+	default n
+	---help---
+	external backlight IC 1080_2408 M44X
+	
